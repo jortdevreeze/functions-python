@@ -16,12 +16,12 @@ Example of how to implement the natural keys function.
 '''
 
 l = [
-  '('key1', False)', 
-  '('key10', False)', 
-  '('key2', False)', 
-  '('key3', False)', 
-  '('key4', False)', 
-  '('key5', False)'
+  ('key1', False), 
+  ('key10', False), 
+  ('key2', False), 
+  ('key3', False), 
+  ('key4', False), 
+  ('key5', False)
 ]
 
 l.sort(key=natural_keys)
