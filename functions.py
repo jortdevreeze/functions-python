@@ -24,4 +24,8 @@ l = [
   ('key5', False)
 ]
 
+<<<<<<< HEAD
 l.sort(key=natural_keys)
+=======
+l.sort(key=natural_keys)
+>>>>>>> de28e159a9666ca901825bb4defaa35a3b0bf33d
